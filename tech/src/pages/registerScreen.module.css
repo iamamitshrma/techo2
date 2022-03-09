@@ -1,0 +1,7 @@
+.formContainer {
+    padding: 50px 300px 0 300px;
+}
+
+.passwordMatch {
+    color: red;
+}
