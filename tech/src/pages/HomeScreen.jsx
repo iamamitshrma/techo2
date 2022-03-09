@@ -46,7 +46,7 @@ const HomeScreen = () => {
       title: 'Operations',
       dataIndex: '',
       key: 'operations',
-      render: () => <button onClick={deleteItem}>Delete</button>,
+      render: () => <div><button onClick={deleteItem}>Delete</button><button style={{marginLeft: '20px'}}>Update</button></div>,
     },
   ];
 

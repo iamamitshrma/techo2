@@ -7,9 +7,11 @@ import {
   Redirect
 } from "react-router-dom";
 import RegisterScreen from "./pages/RegisterScreen";
+import { useEffect } from "react";
 
 function App() {
   const user = localStorage.getItem('user');
+
   console.log(user);
   return (
     <Router>        
